@@ -25,10 +25,9 @@ iPhoneなどで撮影した写真や動画を整理するための zsh スクリ
 ### 「元に戻したい」に対応の安心設計
 - 「🙅やっぱり元のファイル名に戻したい」と考えが変わっても大丈夫。リネーム作業を行ったフォルダに `undo_rename_YYYYMMDD_HHMMSS.sh` の⚙️復元用スクリプトを自動生成。
 - 元通りに戻したくなったら  
-  ```
-  cd /対象のディレクトリ
-  sh undo_rename_YYYYMMDD_HHMMSS.sh
-```
+`  cd /対象のディレクトリ  
+  sh undo_rename_YYYYMMDD_HHMMSS.sh`
+
   で**一発で元に戻せる**🔄ので安心。  
   ※すでに `YYMMDD_hhmmss-` で始まるファイルはスキップ対象となるため、再度実行してもリネームや undo スクリプトには記録されません。
 
@@ -50,6 +49,7 @@ iPhoneなどで撮影した写真や動画を整理するための zsh スクリ
   ```  
   brew install exiftool jq  
   ```
+  
 ⚠️ Homebrewがインストールされていない場合は、[https://brew.sh/ja/](https://brew.sh/ja/) からHomebrewをインストールしてください。
 
 ---
