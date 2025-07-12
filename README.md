@@ -46,7 +46,7 @@ iPhoneなどで撮影した写真や動画を整理するための zsh スクリ
 ## 🔧Requirements（要件）🔧
 - macOS（zsh）のターミナル（アプリケーション＞ユーティリティの中にターミナル.appがあります）
 - [exiftool](https://exiftool.org/) 
--  [jq](https://stedolan.github.io/jq/)
+-  [jq](https://stedolan.github.io/jq/)  
 インストールされていない場合は、Homebrewから以下のように2ついっぺんに（もしくはインストールされていないものだけ）インストールできます。  
   ```  
   brew install exiftool jq  
